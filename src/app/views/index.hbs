@@ -1,0 +1,56 @@
+
+
+
+
+
+<div class="row">
+
+
+    <button type="button" class="btn btn-success btn_show" style="margin-top: 30px;width: 100%;">（成功）Success</button>
+    </div>
+
+<div class="row">
+    <h3 class="titles">推荐</h3>
+{{#data.recommend}}
+    <div class="index_sub col-md-6  col-xs-6">
+        <a href="#/resource/{{catid}}/{{id}}" class="text-center thumbnail noborder">
+            <img  src="{{url.photo}}" alt="...">
+        </a>
+        <h3 class="text-center nomargintop"><a href="#/show/{{catid}}/{{id}}">{{name}}</a></h3>
+
+    </div>
+
+{{/data.recommend}}
+
+
+
+</div>
+
+
+
+<div class="row" >
+
+    <h3 class="titles">名师推荐</h3>
+
+
+    {{#data.teachers}}
+
+    <div class="col-xs-6 col-md-6 list-group">
+        <div class="index_sub_img">
+
+
+            <a href="#teacher/{{id}}"><img src="{{thumb}}" style="width: 100%;"></a>
+            <div class="title text-center" >
+                <h3><a href="#teacher/{{id}}">{{name}}</a></h3>
+            </div>
+
+
+        </div>
+    </div>
+
+    {{/data.teachers}}
+
+</div>
+
+
+

@@ -1,0 +1,56 @@
+
+
+<div class="row">
+    <div class="list_menu">
+        <h3>类型</h3>
+
+        <div class="col-md-3 col-xs-3 active"><a href="#">全部</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">纪录片</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">文学</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">艺术</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">文学</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">艺术</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">文学</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">艺术</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">文学</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">艺术</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">文学</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">艺术</a></div>
+
+    </div>
+</div>
+
+<div class="row list-group">
+    <div class="list_menu">
+        <h3>来源</h3>
+
+        <div class="col-md-3 col-xs-3"><a href="#">全部</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">国内</a></div>
+        <div class="col-md-3 col-xs-3 active"><a href="#">国外</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">TED</a></div>
+
+    </div>
+</div>
+
+<div class="row list-group">
+    <div class="list_menu">
+        <div class="col-md-3 col-xs-3 active"><a href="#">按最新</a></div>
+        <div class="col-md-3 col-xs-3"><a href="#">按最热</a></div>
+    </div>
+</div>
+
+{{#data}}
+<div class="list_info row">
+    <div class="col-md-6 col-xs-6 text-center"><img src="{{url.photo}}" ></div>
+    <div class="col-md-6 col-xs-6 text-left">
+
+        <h6 class="text-left">{{name}}</h6>
+        <h6 class="text-left">资源类别：{{groups}}</h6>
+        <h6 class="text-left">点播数：1244 </h6>
+    </div>
+</div>
+{{/data}}
+
+
+
+
